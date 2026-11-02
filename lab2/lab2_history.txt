@@ -1,0 +1,212 @@
+    1  ls
+    2  sudo apt install dkms build-essential
+    3  dir
+    4  ls
+    5  Desktop
+    6  clear
+    7  man ls
+    8  ls -l
+    9  ls -a
+   10  clear
+   11  ls -la
+   12  clear
+   13  pwd
+   14  cls
+   15  clear
+   16  ps -A
+   17  cleat
+   18  clear
+   19  ps -A | more
+   20  clear
+   21  ps -A | gret steam
+   22  ps -A | grep stewam
+   23  ps -A
+   24  ps -A | grep gnome
+   25  ps -A | grep gnome | more
+   26  clear
+   27  sudo tshark -f "icmp"
+   28  sudo FireFox
+   29  sudo FireFox -f
+   30  clear
+   31  ps -A
+   32  clear
+   33  more
+   34  cat > Temporary
+   35  cat Temporary
+   36  more Temporary
+   37  clear
+   38  las
+   39  ls
+   40  ls -l
+   41  sudo Temporary
+   42  sudo Temporary -f
+   43  ps
+   44  ps -A
+   45  clear
+   46  ps -A | greb Temporary
+   47  ps -A | grep Temporary
+   48  ps -A
+   49  sudo kill -9 3990
+   50  ps -A | grep pts
+   51  ps -A | grep terminal
+   52  sudo kill -9 3449
+   53  cat >> Temporary 
+   54  cat Temporary 
+   55  clear
+   56  ipconfig
+   57  sudo ipconfig
+   58  pwd
+   59  clear
+   60  history
+   61  clear
+   62  history | more
+   63  clear
+   64  history > historyLogs
+   65  car historyLogs 
+   66  cat historyLogs 
+   67  clear
+   68  ip -a
+   69  ifconfig
+   70  sudo apt install net-tools
+   71  ifconfig
+   72  ipconfig
+   73  ip -a
+   74  ip -d address
+   75  clear
+   76  history
+   77  cleat
+   78  clear
+   79  pwd
+   80  sudo ipconfig
+   81  clear
+   82  ip -a
+   83  ifconfig
+   84  ip
+   85  ip -d address
+   86  clear
+   87  ping
+   88  ping 192.168.1.108
+   89  ping -n 10 192.168.1.108
+   90  ping www.youtube.com
+   91  man ping
+   92  ping -c 4 192.168.1.108
+   93  ifconfig
+   94  ping 10.0.2.15
+   95  sudo remove ?
+   96  cls
+   97  clear
+   98  history
+   99  ping -c 4 127.0.0.0
+  100  clear
+  101  sudo apt install -y net-tools vlc   # ifconfig (п.74) і медіаплеєр (п.48)
+  102  cd ~/Downloads && apt download htop # .deb-пакет для п.9 (dpkg)
+  103  mkdir -p ~/Documents
+  104  uname -a
+  105  sudo apt update
+  106  cat /etc/apt/sources.list
+  107  sudo apt install vim
+  108  cd ~
+  109  cd Downloads
+  110  man ls
+  111  ls -la
+  112  dpkg -i htop_*.deb
+  113  sudo dpkg -i htop_*.deb
+  114  cd /
+  115  sudo su
+  116  echo hi all
+  117  echo $PWD 'hi all here!'
+  118  cd ~
+  119  touch hi.sh
+  120  echo $PATH
+  121  vi hi.sh
+  122  sudo -v
+  123  vi hi.sh
+  124  ./hi.sh
+  125  chmod +x hi.sh
+  126  chmod 777 hi.sh
+  127  ./hi.sh
+  128  ./hi.sh Ukraine
+  129  mkdir scripts
+  130  cp hi.sh scripts/
+  131  cp scripts Documents/
+  132  cp -r scripts Documents/
+  133  cd scripts
+  134  mv hi.sh ..
+  135  cd ..
+  136  rm scripts
+  137  rm -r scripts
+  138  cd /bin
+  139  ls -l
+  140  cd ../..
+  141  tar -cvzf ~/scripts.tar.gz -C ~/Documents scripts
+  142  cat ~/hi.sh
+  143  cat /var/log/dpkg.log
+  144  tail -n 20 /var/log/dpkg.log
+  145  less /var/log/dpkg.log
+  146  cd /
+  147  find . -name dhcp 2>/dev/null
+  148  find . -name "*dhcp*" 2>/dev/null
+  149  find . -name "*dhcp*" 2>/dev/null | grep -i --color dhcp
+  150  find . -name "*dhcp*" 2>/dev/null | grep -i --color etc
+  151  ping google.com
+  152  ping google.com > ~/ping.log &
+  153  date
+  154  sudo ping google.com > /dev/null &
+  155  vlc &
+  156  sudo -v
+  157  ls -l
+  158  cd /bin
+  159  ls
+  160  echo $PATH
+  161  set
+  162  whoami
+  163  cd /etc
+  164  ls
+  165  cd ..
+  166  cd lib
+  167  ls
+  168  dmesg
+  169  sudo dmesg
+  170  ls /dev
+  171  sudo dmesg -C
+  172  sudo dmesg
+  173  df -h
+  174  cd /home
+  175  ls -l
+  176  lsmod
+  177  cd /proc
+  178  cat cpuinfo
+  179  echo 1 > /proc/sys/net/ipv4/ip_forward
+  180  sudo echo 1 > /proc/sys/net/ipv4/ip_forward
+  181  sudo su
+  182  cd ~
+  183  echo vika > 1.txt
+  184  cat 1.txt
+  185  echo vasya > 2.txt
+  186  cat 2.txt
+  187  diff 1.txt 2.txt
+  188  history
+  189  lspci
+  190  history > history.txt
+  191  whoami; date; ls -l history.txt history2.txt
+  192  sudo -v
+  193  echo "wireshark-common wireshark-common/install-setuid boolean true" | sudo debconf-set-selections
+  194  sudo DEBIAN_FRONTEND=noninteractive apt install -y wireshark
+  195  clear
+  196  sudo usermod -aG wireshark $USER
+  197  whoami; date
+  198  ip a
+  199  ip route
+  200  arp -a
+  201  clear
+  202  sg wireshark -c "wireshark -i enp0s3 -k -Y 'arp or icmp'" &>/dev/null & sleep 10; clear; whoami; date; sudo arp -d 10.0.2.2; arp -a; ping -c 4 10.0.2.2; arp -a
+  203  clear
+  204  whoami; date
+  205  sudo arp -d 10.0.2.2; echo "--- cache after delete:"; arp -a
+  206  sudo arp -s 10.0.2.2 52:54:00:12:35:02; arp -a
+  207  ping -c 3 10.0.2.2; arp -a
+  208  clear
+  209  whoami; date; ping -c 3 10.0.2.99; arp -a
+  210  clear
+  211  whoami; date; sudo arp -d 10.0.2.2; arp -a
+  212  history > ~/lab2_history.txt; ls -l ~/lab2_history.txt ~/lab2_arp.pcapng

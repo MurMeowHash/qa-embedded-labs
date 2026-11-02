@@ -1,0 +1,113 @@
+    1  ls
+    2  sudo apt install dkms build-essential
+    3  dir
+    4  ls
+    5  Desktop
+    6  clear
+    7  man ls
+    8  ls -l
+    9  ls -a
+   10  clear
+   11  ls -la
+   12  clear
+   13  pwd
+   14  cls
+   15  clear
+   16  ps -A
+   17  cleat
+   18  clear
+   19  ps -A | more
+   20  clear
+   21  ps -A | gret steam
+   22  ps -A | grep stewam
+   23  ps -A
+   24  ps -A | grep gnome
+   25  ps -A | grep gnome | more
+   26  clear
+   27  sudo tshark -f "icmp"
+   28  sudo FireFox
+   29  sudo FireFox -f
+   30  clear
+   31  ps -A
+   32  clear
+   33  more
+   34  cat > Temporary
+   35  cat Temporary
+   36  more Temporary
+   37  clear
+   38  las
+   39  ls
+   40  ls -l
+   41  sudo Temporary
+   42  sudo Temporary -f
+   43  ps
+   44  ps -A
+   45  clear
+   46  ps -A | greb Temporary
+   47  ps -A | grep Temporary
+   48  ps -A
+   49  sudo kill -9 3990
+   50  ps -A | grep pts
+   51  ps -A | grep terminal
+   52  sudo kill -9 3449
+   53  cat >> Temporary 
+   54  cat Temporary 
+   55  clear
+   56  ipconfig
+   57  sudo ipconfig
+   58  pwd
+   59  clear
+   60  history
+   61  clear
+   62  history | more
+   63  clear
+   64  history > historyLogs
+   65  car historyLogs 
+   66  cat historyLogs 
+   67  clear
+   68  ip -a
+   69  ifconfig
+   70  sudo apt install net-tools
+   71  ifconfig
+   72  ipconfig
+   73  ip -a
+   74  ip -d address
+   75  clear
+   76  history
+   77  cleat
+   78  clear
+   79  pwd
+   80  sudo ipconfig
+   81  clear
+   82  ip -a
+   83  ifconfig
+   84  ip
+   85  ip -d address
+   86  clear
+   87  ping
+   88  ping 192.168.1.108
+   89  ping -n 10 192.168.1.108
+   90  ping www.youtube.com
+   91  man ping
+   92  ping -c 4 192.168.1.108
+   93  ifconfig
+   94  ping 10.0.2.15
+   95  sudo remove ?
+   96  cls
+   97  clear
+   98  history
+   99  ping -c 4 127.0.0.0
+  100  clear
+  101  sudo apt install -y net-tools vlc   # ifconfig (п.74) і медіаплеєр (п.48)
+  102  cd ~/Downloads && apt download htop # .deb-пакет для п.9 (dpkg)
+  103  mkdir -p ~/Documents
+  104  sudo -v
+  105  fg
+  106  ps aux | grep ping
+  107  kill 5034
+  108  ps aux | grep ping
+  109  kill 5039
+  110  sudo kill -9 5039
+  111  sudo -v
+  112  sudo killall vlc
+  113  history > history2.txt
