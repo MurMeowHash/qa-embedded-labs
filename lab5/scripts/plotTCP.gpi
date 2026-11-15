@@ -1,0 +1,11 @@
+#!/usr/bin/gnuplot -persist
+
+set xlabel "Time, sec"
+set ylabel "Mbit/sec"
+
+files = system("ls -1 tcp_*.txt")
+phone(f) = substr(f, 5, strlen(f) - 4)
+
+plot for [file in files] "< grep bits/sec ".file." | head -n -1" using 7 title phone(file) with lines
+
+pause mouse close
